@@ -1,7 +1,7 @@
 //Declaramos las variables//
 let dolar, pesos, monto, montoDolar,opcion;
 dolar=1300;
-const history=[];
+let history=[];
 
 //Creamos la función//
 function convertCurrency(pesos){
@@ -24,7 +24,6 @@ do{
                 salida: montoDolar+' USD',
                 fecha: new Date().toLocaleString()
             });
-            console.log(history)
             break
         case "2":
             alert('Salió');
@@ -33,4 +32,4 @@ do{
             alert('No ingreso un valor valido');
     }
 }while (opcion!=='2') 
-
+console.log(history)
