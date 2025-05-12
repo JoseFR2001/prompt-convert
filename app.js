@@ -1,6 +1,6 @@
 //Declaramos las variables//
-let dolar, pesos, monto, montoDolar,opcion;
-dolar=1300;
+let pesos, monto, montoDolar,opcion;
+const dolar=1300;
 let history=[];
 
 //Creamos la función//
